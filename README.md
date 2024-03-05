@@ -23,7 +23,7 @@ Install node_modules in the respective git submodules with their respective depe
 It is also necessary to copy .env.default file to .env and insert the appropriate values. Please contact the owner of this repository to the values. A description of the values is also given in the file itself.
 
 (UNIX)
-```cp .env.default .env.local```
+```cp .env.default .env```
 
 | Name                               | Example | Required (Yes/No) | Description                                                                                   |
 |------------------------------------|---------|-------------------|-----------------------------------------------------------------------------------------------|
