@@ -7,11 +7,14 @@ This service facilitates the real-time retrieval of comprehensive context inform
 
 As of now, the only supported Authentication Server (AS) for this process is moin.schule.
 
+# Dependencies
+## Service Authentication
+* To be able to authorize license imports, relevant service credentuals are required. More details: [partners/n-21.md](./partners/n-21.md)
+
 # Requirements:
 * MariaDB Version 10x
 * Redis Version 6x
 * Node.js Version 20x
-* [moin.schule](https://www.n-21.de/portal/seiten/moin-schule-900000111-10056.html) (OIDC) authentication service credentials 
 
 # Quick Start:
 
